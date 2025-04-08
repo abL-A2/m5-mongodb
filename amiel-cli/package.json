@@ -1,0 +1,34 @@
+{
+  "name": "clinc",
+  "version": "0.1.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo 'no tests yet' && exit 1",
+    "clinc": "node index.js"
+  },
+  "bin": {
+    "clinc": "./index.js"
+  },
+  "keywords": [
+    "cli",
+    "clinc",
+    "node.js",
+    "clackjs",
+    "mongo"
+  ],
+  "author": "abL-A2",
+  "license": "ISC",
+  "description": "lightweight CLI tool for interfacing with MongoDO, built with Node.js & ClackJS/prompts",
+  "dependencies": {
+    "@clack/prompts": "^0.8.2",
+    "dotenv": "^16.4.7",
+    "mongodb": "^6.12.0",
+    "picocolors": "^1.1.1",
+    "yargs": "^17.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
